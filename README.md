@@ -80,3 +80,8 @@ console.log(createGreeting('Mina', 'Patel', 'afternoon'));
 ## License
 
 This project is created for learning and practice purposes.
+
+## Project Link 
+```link
+https://roadmap.sh/projects/js-greeting-builder
+```
