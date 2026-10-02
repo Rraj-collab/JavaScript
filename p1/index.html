@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        width: 100px;
+        height: 100px;
+        background: rgb(103, 182, 209);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">Toggle box</button>
+    <h1>Hello world!</h1>
+    <div id="box">Hide</div>
+    <script>
+      const btn = document.getElementById("btn");
+      const box = document.getElementById("box");
+      btn.addEventListener("click", function () {
+        box.classList.toggle("hide");
+      });
+    </script>
+  </body>
+</html>
